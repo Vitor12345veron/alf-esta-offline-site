@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, WifiOff } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { NAV_LINKS } from '../data/siteData';
 import { WhatsAppButton } from './WhatsAppButton';
+import { Logo } from './Logo';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,13 +32,13 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <a
           href="#inicio"
-          className="flex items-center gap-2 text-alf-white"
+          className="text-alf-white"
           aria-label="ALF Está Offline - Início"
         >
-          <WifiOff className="h-6 w-6 text-alf-red" aria-hidden="true" />
-          <span className="font-display text-xl font-bold uppercase tracking-wider">
-            ALF Está Offline
-          </span>
+          <Logo
+            iconClassName="h-6 w-6"
+            textClassName="font-display text-xl font-bold uppercase tracking-wider"
+          />
         </a>
 
         <nav className="hidden items-center gap-8 lg:flex">

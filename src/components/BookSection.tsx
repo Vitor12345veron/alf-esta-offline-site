@@ -18,7 +18,7 @@ export function BookSection() {
           <div className="relative rounded-xl bg-gradient-to-br from-alf-white/5 to-transparent p-3 ring-1 ring-alf-white/10">
             <div className="absolute -inset-4 rounded-full bg-alf-red/5 blur-3xl" />
             <img
-              src="/images/capa-livro.png"
+              src={`${import.meta.env.BASE_URL}images/capa-livro.png`}
               alt="Capa do livro ALF Está Offline"
               className="relative h-auto w-full rounded-lg object-cover shadow-2xl shadow-black/50"
               width={600}
@@ -46,8 +46,8 @@ export function BookSection() {
 
           <blockquote className="relative my-6 border-l-4 border-alf-red bg-alf-graphite/50 p-6">
             <Quote className="absolute right-4 top-4 h-8 w-8 text-alf-red/20" aria-hidden="true" />
-            <p className="font-display text-2xl font-medium italic text-alf-white md:text-3xl">
-              {BOOK.quote}
+            <p className="font-display text-xl font-medium italic text-alf-white md:text-2xl">
+              Estamos ONLINE nas redes e OFFLINE para a conexão com a vida real.
             </p>
           </blockquote>
 

@@ -47,6 +47,12 @@ export function Hero() {
               {HERO.supportText}
             </p>
 
+            <div className="mt-2 inline-flex items-center gap-3 rounded-lg border-l-4 border-alf-red bg-alf-red/10 px-5 py-3">
+              <span className="font-display text-lg font-semibold uppercase tracking-wide text-alf-white sm:text-xl">
+                Não substitua presença por presentes!
+              </span>
+            </div>
+
             <div className="mt-4 flex flex-col gap-4 sm:flex-row">
               <Button href="#contato" size="large">
                 {HERO.buttons.primary}
@@ -68,7 +74,7 @@ export function Hero() {
               <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-alf-red/25 via-alf-red/5 to-transparent blur-2xl" />
               <div className="absolute -inset-1 rounded-xl bg-gradient-to-br from-alf-red/20 to-transparent opacity-60" />
               <img
-                src="/images/capa-livro.png"
+                src={`${import.meta.env.BASE_URL}images/capa-livro.png`}
                 alt="Capa do livro ALF Está Offline, de Fabrício Lopes"
                 className="relative h-auto w-full rounded-xl object-cover shadow-2xl shadow-black/60 ring-1 ring-alf-white/10"
                 width={600}

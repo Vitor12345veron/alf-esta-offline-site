@@ -18,6 +18,12 @@ export function ProblemSection() {
     <Section id="problema" variant="graphite">
       <SectionHeader title={PROBLEM.title} subtitle={PROBLEM.lead} />
 
+      <div className="mx-auto mb-12 max-w-4xl text-center">
+        <p className="font-display text-xl font-medium italic text-alf-white/95 sm:text-2xl md:text-3xl">
+          “A tecnologia, que prometia conectar as pessoas, estava criando uma barreira invisível entre elas.”
+        </p>
+      </div>
+
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {PROBLEM.items.map((item, index) => {
           const Icon = icons[index % icons.length];

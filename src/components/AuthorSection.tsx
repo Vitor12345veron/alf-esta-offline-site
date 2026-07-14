@@ -15,15 +15,21 @@ export function AuthorSection() {
           transition={{ duration: 0.7 }}
           className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md"
         >
-          <div className="relative">
-            <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-alf-red/20 to-transparent blur-xl" />
-            <div className="relative aspect-square overflow-hidden rounded-2xl bg-alf-black shadow-2xl shadow-black/40 ring-1 ring-alf-white/10">
+          {/*
+            Variantes disponíveis para o card da imagem do autor:
+            - author-image-card--gradient (gradiente vinho/bordô — padrão, valoriza AUTOR.png)
+            - author-image-card--concrete (cinza + vinho)
+            - author-image-card--wine     (vinho escuro sólido)
+            - author-image-card--glow     (glow vermelho suave com centro escuro)
+          */}
+          <div className="author-image-card author-image-card--gradient">
+            <div className="author-image-frame author-image-frame--png">
               <img
-                src="/images/autor.jpg"
+                src={`${import.meta.env.BASE_URL}images/AUTOR.png`}
                 alt={`Foto de ${AUTHOR.name}`}
                 className="h-full w-full object-cover object-top"
-                width={520}
-                height={520}
+                width={800}
+                height={800}
                 loading="lazy"
                 decoding="async"
               />

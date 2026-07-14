@@ -14,6 +14,9 @@ export function CtaSection() {
         transition={{ duration: 0.7 }}
         className="rounded-2xl bg-gradient-to-br from-alf-red to-alf-red-hover p-8 text-center shadow-2xl shadow-black/30 md:p-16"
       >
+        <p className="mx-auto mb-4 max-w-3xl font-display text-lg font-medium italic text-white/90 sm:text-xl md:text-2xl">
+          “O desafio não é se conectar no mundo digital. O maior desafio é se conectar no mundo pessoal.”
+        </p>
         <h2 className="mx-auto max-w-4xl font-display text-3xl font-bold uppercase tracking-wide text-white md:text-4xl lg:text-5xl">
           {CTA.title}
         </h2>
