@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { ProblemSection } from './components/ProblemSection'
+import { QuoteSection } from './components/QuoteSection'
 import { BookSection } from './components/BookSection'
 import { EducationalProjectSection } from './components/EducationalProjectSection'
 import { TargetAudienceSection } from './components/TargetAudienceSection'
@@ -24,6 +25,7 @@ function App() {
       <main>
         <Hero />
         <ProblemSection />
+        <QuoteSection quote="A casa, que deveria ser um lar, tornara-se uma ilha de solidão." />
         <BookSection />
         <EducationalProjectSection />
         <TargetAudienceSection />

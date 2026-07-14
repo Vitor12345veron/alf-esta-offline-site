@@ -47,6 +47,12 @@ export function Hero() {
               {HERO.supportText}
             </p>
 
+            <div className="mt-2 inline-flex items-center gap-3 rounded-lg border-l-4 border-alf-red bg-alf-red/10 px-5 py-3">
+              <span className="font-display text-lg font-semibold uppercase tracking-wide text-alf-white sm:text-xl">
+                Não substitua presença por presentes!
+              </span>
+            </div>
+
             <div className="mt-4 flex flex-col gap-4 sm:flex-row">
               <Button href="#contato" size="large">
                 {HERO.buttons.primary}

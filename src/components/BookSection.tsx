@@ -46,8 +46,8 @@ export function BookSection() {
 
           <blockquote className="relative my-6 border-l-4 border-alf-red bg-alf-graphite/50 p-6">
             <Quote className="absolute right-4 top-4 h-8 w-8 text-alf-red/20" aria-hidden="true" />
-            <p className="font-display text-2xl font-medium italic text-alf-white md:text-3xl">
-              {BOOK.quote}
+            <p className="font-display text-xl font-medium italic text-alf-white md:text-2xl">
+              Estamos ONLINE nas redes e OFFLINE para a conexão com a vida real.
             </p>
           </blockquote>
 
