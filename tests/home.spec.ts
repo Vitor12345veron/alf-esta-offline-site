@@ -64,6 +64,46 @@ test.describe('ALF Está Offline - Home', () => {
     }
   });
 
+  test('deve carregar as imagens principais sem erros', async ({ page, isMobile }) => {
+    const failedImages: string[] = [];
+
+    page.on('console', (msg) => {
+      const text = msg.text();
+      if (text.includes('capa-livro') || text.includes('autor.jpg')) {
+        failedImages.push(text);
+      }
+    });
+
+    page.on('response', (response) => {
+      const url = response.url();
+      if ((url.includes('capa-livro') || url.includes('autor.jpg')) && !response.ok()) {
+        failedImages.push(`${url}: ${response.status()}`);
+      }
+    });
+
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+
+    const heroImage = page.locator('#inicio img[alt*="Capa do livro"]').first();
+    await expect(heroImage).toBeVisible();
+
+    const bookImage = page.locator('#livro img[alt*="Capa do livro"]').first();
+    await expect(bookImage).toBeVisible();
+
+    if (isMobile) {
+      await page.locator('button[aria-label="Abrir menu"]').click();
+      await page.locator('[data-testid="mobile-menu"] nav a[href="#autor"]').first().click();
+    } else {
+      await page.locator('header nav a[href="#autor"]').first().click();
+    }
+    await page.waitForTimeout(300);
+
+    const authorImage = page.locator('#autor img[alt*="Fabrício Lopes"]').first();
+    await expect(authorImage).toBeVisible();
+
+    expect(failedImages).toHaveLength(0);
+  });
+
   test('não deve apresentar erros críticos no console', async ({ page }) => {
     const errors: string[] = [];
 

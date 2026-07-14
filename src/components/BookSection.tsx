@@ -9,21 +9,22 @@ export function BookSection() {
     <Section id="livro" variant="black">
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <motion.div
-          initial={{ opacity: 0.95, scale: 0.95 }}
+          initial={{ opacity: 0.95, scale: 0.98 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="order-2 mx-auto max-w-sm lg:order-1 lg:max-w-md"
+          className="order-2 mx-auto w-full max-w-xs sm:max-w-sm lg:order-1 lg:max-w-md"
         >
-          <div className="relative">
-            <div className="absolute -inset-6 rounded-full bg-alf-red/5 blur-3xl" />
+          <div className="relative rounded-xl bg-gradient-to-br from-alf-white/5 to-transparent p-3 ring-1 ring-alf-white/10">
+            <div className="absolute -inset-4 rounded-full bg-alf-red/5 blur-3xl" />
             <img
-              src="/capa-livro.png"
+              src="/images/capa-livro.png"
               alt="Capa do livro ALF Está Offline"
-              className="relative rounded-xl shadow-2xl shadow-black/40"
-              width={520}
-              height={780}
+              className="relative h-auto w-full rounded-lg object-cover shadow-2xl shadow-black/50"
+              width={600}
+              height={900}
               loading="lazy"
+              decoding="async"
             />
           </div>
         </motion.div>

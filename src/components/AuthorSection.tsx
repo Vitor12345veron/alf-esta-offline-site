@@ -13,18 +13,21 @@ export function AuthorSection() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="mx-auto max-w-sm lg:max-w-md"
+          className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md"
         >
           <div className="relative">
-            <div className="absolute -inset-4 rounded-2xl bg-gradient-to-tr from-alf-red/20 to-transparent blur-xl" />
-            <img
-              src="/autor.jpg"
-              alt={`Foto de ${AUTHOR.name}`}
-              className="relative rounded-xl object-cover shadow-2xl shadow-black/40"
-              width={520}
-              height={520}
-              loading="lazy"
-            />
+            <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-alf-red/20 to-transparent blur-xl" />
+            <div className="relative aspect-square overflow-hidden rounded-2xl bg-alf-black shadow-2xl shadow-black/40 ring-1 ring-alf-white/10">
+              <img
+                src="/images/autor.jpg"
+                alt={`Foto de ${AUTHOR.name}`}
+                className="h-full w-full object-cover object-top"
+                width={520}
+                height={520}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
           </div>
         </motion.div>
 

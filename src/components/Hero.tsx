@@ -62,17 +62,19 @@ export function Hero() {
             initial={{ opacity: 0.95, x: 40 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative mx-auto max-w-sm lg:max-w-md"
+            className="relative mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md"
           >
             <div className="relative">
-              <div className="absolute -inset-4 rounded-2xl bg-gradient-to-br from-alf-red/20 to-transparent blur-xl" />
+              <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-alf-red/25 via-alf-red/5 to-transparent blur-2xl" />
+              <div className="absolute -inset-1 rounded-xl bg-gradient-to-br from-alf-red/20 to-transparent opacity-60" />
               <img
-                src="/capa-livro.png"
+                src="/images/capa-livro.png"
                 alt="Capa do livro ALF Está Offline, de Fabrício Lopes"
-                className="relative rounded-xl shadow-2xl shadow-black/50"
-                width={520}
-                height={780}
+                className="relative h-auto w-full rounded-xl object-cover shadow-2xl shadow-black/60 ring-1 ring-alf-white/10"
+                width={600}
+                height={900}
                 loading="eager"
+                decoding="async"
               />
             </div>
           </motion.div>
