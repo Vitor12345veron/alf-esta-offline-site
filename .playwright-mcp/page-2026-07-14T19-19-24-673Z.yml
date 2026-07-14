@@ -1,0 +1,369 @@
+- generic [ref=f3e3]:
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "ALF Está Offline - Início" [ref=f3e6] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=f3e14]: ALF Está Offline
+      - navigation [ref=f3e15]:
+        - link "Início" [ref=f3e16] [cursor=pointer]:
+          - /url: "#inicio"
+        - link "O Livro" [ref=f3e17] [cursor=pointer]:
+          - /url: "#livro"
+        - link "Projeto Educacional" [ref=f3e18] [cursor=pointer]:
+          - /url: "#projeto"
+        - link "Metodologia" [ref=f3e19] [cursor=pointer]:
+          - /url: "#metodologia"
+        - link "BNCC" [ref=f3e20] [cursor=pointer]:
+          - /url: "#bncc"
+        - link "Autor" [ref=f3e21] [cursor=pointer]:
+          - /url: "#autor"
+        - link "Contato" [ref=f3e22] [cursor=pointer]:
+          - /url: "#contato"
+      - link "Falar no WhatsApp - 5535984377973" [ref=f3e24] [cursor=pointer]:
+        - /url: https://wa.me/5535984377973?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Projeto%20ALF%20Est%C3%A1%20Offline.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.
+        - text: Falar no WhatsApp
+  - main [ref=f3e27]:
+    - generic [ref=f3e32]:
+      - generic [ref=f3e33]:
+        - generic [ref=f3e34]:
+          - generic [ref=f3e35]: Projeto Educacional
+          - heading "ALF Está Offline" [level=1] [ref=f3e44]
+          - paragraph [ref=f3e45]: Uma jornada literária para reconectar estudantes, famílias e escolas em uma era dominada pelas telas.
+          - paragraph [ref=f3e46]: Um projeto educacional que une literatura, competências socioemocionais e cultura digital consciente para o Ensino Fundamental II.
+          - generic [ref=f3e47]:
+            - link "Solicitar apresentação" [ref=f3e48] [cursor=pointer]:
+              - /url: "#contato"
+            - link "Conhecer o projeto" [ref=f3e49] [cursor=pointer]:
+              - /url: "#projeto"
+        - img "Capa do livro ALF Está Offline, de Fabrício Lopes" [ref=f3e54]
+      - link "Rolar para próxima seção" [ref=f3e55] [cursor=pointer]:
+        - /url: "#problema"
+        - generic [ref=f3e56]: Conhecer
+    - generic [ref=f3e60]:
+      - generic [ref=f3e61]:
+        - heading "O problema que precisamos enfrentar" [level=2] [ref=f3e62]
+        - paragraph [ref=f3e63]: Enquanto a tecnologia promete aproximar, muitas famílias estão cada vez mais distantes dentro da própria casa.
+      - generic [ref=f3e64]:
+        - generic [ref=f3e65]:
+          - heading "Uso excessivo de telas" [level=3] [ref=f3e70]
+          - paragraph [ref=f3e71]: Horas diárias absorvidas por notificações, jogos e redes sociais.
+        - generic [ref=f3e72]:
+          - heading "Isolamento social" [level=3] [ref=f3e79]
+          - paragraph [ref=f3e80]: Estudantes fisicamente presentes, mas emocionalmente distantes.
+        - generic [ref=f3e81]:
+          - heading "Ansiedade" [level=3] [ref=f3e91]
+          - paragraph [ref=f3e92]: Pressão constante de comparação e estímulos digitais ininterruptos.
+        - generic [ref=f3e93]:
+          - heading "Dificuldade de concentração" [level=3] [ref=f3e97]
+          - paragraph [ref=f3e98]: Fragmentação da atenção e resistência à leitura prolongada.
+        - generic [ref=f3e99]:
+          - heading "Enfraquecimento dos vínculos familiares" [level=3] [ref=f3e105]
+          - paragraph [ref=f3e106]: Pais e filhos dividem o mesmo teto, mas não a mesma vida.
+        - generic [ref=f3e107]:
+          - heading "Redução dos hábitos de leitura" [level=3] [ref=f3e111]
+          - paragraph [ref=f3e112]: Leitura perde espaço para conteúdos rápidos e superficiais.
+        - generic [ref=f3e113]:
+          - heading "Dificuldade de comunicação presencial" [level=3] [ref=f3e119]
+          - paragraph [ref=f3e120]: Conversas presenciais são substituídas por mensagens e reações.
+    - generic [ref=f3e123]:
+      - img "Capa do livro ALF Está Offline" [ref=f3e127]
+      - generic [ref=f3e128]:
+        - heading "Uma narrativa para despertar famílias" [level=2] [ref=f3e130]
+        - paragraph [ref=f3e131]: "Alf é um garoto como tantos da sua geração: encontrou nos jogos e nas redes sociais a atenção e o pertencimento que faltavam na vida real."
+        - paragraph [ref=f3e132]: A história convida pais, filhos e educadores a refletirem sobre presença, propósito, vínculos e reconexão. Mais do que uma narrativa juvenil, é um chamado à escuta e ao encontro.
+        - blockquote [ref=f3e133]:
+          - paragraph [ref=f3e137]: Existe um vazio que nenhuma tela consegue preencher.
+        - link "Ver amostra de leitura" [ref=f3e139] [cursor=pointer]:
+          - /url: "#contato"
+    - generic [ref=f3e141]:
+      - generic [ref=f3e142]:
+        - 'heading "Mais que um livro: uma experiência pedagógica completa" [level=2] [ref=f3e143]'
+        - paragraph [ref=f3e144]: O projeto transforma a leitura em uma experiência de formação humana, com aplicação orientada em sala de aula.
+      - generic [ref=f3e145]:
+        - generic [ref=f3e146]:
+          - heading "Livro do estudante" [level=3] [ref=f3e150]
+          - paragraph [ref=f3e151]: Narrativa completa de Alf Está Offline, escrita para provocar reflexão e diálogo.
+        - generic [ref=f3e152]:
+          - heading "Guia pedagógico do professor" [level=3] [ref=f3e157]
+          - paragraph [ref=f3e158]: Mais de 250 páginas com mediação capítulo a capítulo, planejamento e avaliação.
+        - generic [ref=f3e159]:
+          - heading "Parecer técnico pedagógico" [level=3] [ref=f3e164]
+          - paragraph [ref=f3e165]: Documento para subsidiar Secretarias de Educação, conselhos e coordenações.
+        - generic [ref=f3e166]:
+          - heading "Material de apoio" [level=3] [ref=f3e170]
+          - paragraph [ref=f3e171]: Fichas, rubricas, cronogramas e instrumentos de acompanhamento da jornada.
+        - generic [ref=f3e172]:
+          - heading "Atividades interdisciplinares" [level=3] [ref=f3e178]
+          - paragraph [ref=f3e179]: Conexões com língua portuguesa, arte, ciências humanas e projetos de vida.
+        - generic [ref=f3e180]:
+          - heading "Avaliação formativa" [level=3] [ref=f3e186]
+          - paragraph [ref=f3e187]: Registros contínuos que valorizam o processo e o desenvolvimento do estudante.
+    - generic [ref=f3e189]:
+      - heading "Público-alvo" [level=2] [ref=f3e191]
+      - generic [ref=f3e192]:
+        - generic [ref=f3e193]: 6º ano
+        - generic [ref=f3e199]: 7º ano
+        - generic [ref=f3e205]: 8º ano
+        - generic [ref=f3e211]: 9º ano
+        - generic [ref=f3e217]: Escolas de tempo integral
+        - generic [ref=f3e225]: Projetos sociais
+        - generic [ref=f3e233]: Bibliotecas
+        - generic [ref=f3e238]: Escolas confessionais
+        - generic [ref=f3e245]: Redes públicas e privadas
+    - generic [ref=f3e253]:
+      - heading "Objetivos" [level=2] [ref=f3e255]
+      - generic [ref=f3e256]:
+        - generic [ref=f3e257]:
+          - text: Objetivo geral
+          - paragraph [ref=f3e258]: Desenvolver competências leitoras, socioemocionais e cidadãs por meio da literatura, promovendo reflexões sobre relações humanas, equilíbrio no uso das tecnologias, convivência familiar, protagonismo juvenil e projeto de vida.
+        - generic [ref=f3e259]:
+          - text: Objetivos específicos
+          - list [ref=f3e260]:
+            - listitem [ref=f3e261]:
+              - generic [ref=f3e264]: Fortalecer o hábito da leitura
+            - listitem [ref=f3e265]:
+              - generic [ref=f3e268]: Desenvolver interpretação textual
+            - listitem [ref=f3e269]:
+              - generic [ref=f3e272]: Estimular pensamento crítico
+            - listitem [ref=f3e273]:
+              - generic [ref=f3e276]: Promover cultura digital consciente
+            - listitem [ref=f3e277]:
+              - generic [ref=f3e280]: Fortalecer vínculos familiares
+            - listitem [ref=f3e281]:
+              - generic [ref=f3e284]: Desenvolver empatia
+            - listitem [ref=f3e285]:
+              - generic [ref=f3e288]: Estimular comunicação respeitosa
+            - listitem [ref=f3e289]:
+              - generic [ref=f3e292]: Incentivar protagonismo juvenil
+            - listitem [ref=f3e293]:
+              - generic [ref=f3e296]: Favorecer projeto de vida
+    - generic [ref=f3e298]:
+      - generic [ref=f3e299]:
+        - heading "Mediação Literária Reflexiva" [level=2] [ref=f3e300]
+        - paragraph [ref=f3e301]: "Cada capítulo do livro é desenvolvido em cinco momentos pedagógicos:"
+      - generic [ref=f3e304]:
+        - generic [ref=f3e305]:
+          - generic [ref=f3e306]:
+            - heading "Sensibilização" [level=3] [ref=f3e307]
+            - paragraph [ref=f3e308]: Preparação emocional e cognitiva do estudante para o tema do capítulo.
+          - generic [ref=f3e309]: "01"
+          - paragraph [ref=f3e312]: Preparação emocional e cognitiva do estudante para o tema do capítulo.
+        - generic [ref=f3e313]:
+          - generic [ref=f3e314]:
+            - heading "Leitura Compartilhada" [level=3] [ref=f3e315]
+            - paragraph [ref=f3e316]: Leitura orientada pelo professor, com pausas e escuta ativa.
+          - generic [ref=f3e317]: "02"
+          - paragraph [ref=f3e320]: Leitura orientada pelo professor, com pausas e escuta ativa.
+        - generic [ref=f3e321]:
+          - generic [ref=f3e322]:
+            - heading "Mediação" [level=3] [ref=f3e323]
+            - paragraph [ref=f3e324]: Perguntas abertas, rodas de conversa e reflexões coletivas.
+          - generic [ref=f3e325]: "03"
+          - paragraph [ref=f3e328]: Perguntas abertas, rodas de conversa e reflexões coletivas.
+        - generic [ref=f3e329]:
+          - generic [ref=f3e330]:
+            - heading "Atividade Prática" [level=3] [ref=f3e331]
+            - paragraph [ref=f3e332]: Aplicação dos valores trabalhados na narrativa em projetos e exercícios.
+          - generic [ref=f3e333]: "04"
+          - paragraph [ref=f3e336]: Aplicação dos valores trabalhados na narrativa em projetos e exercícios.
+        - generic [ref=f3e337]:
+          - generic [ref=f3e338]:
+            - heading "Diário de Bordo" [level=3] [ref=f3e339]
+            - paragraph [ref=f3e340]: Registro pessoal da aprendizagem e do autoconhecimento.
+          - generic [ref=f3e341]: "05"
+          - paragraph [ref=f3e344]: Registro pessoal da aprendizagem e do autoconhecimento.
+    - generic [ref=f3e346]:
+      - heading "Quatro dimensões integradas" [level=2] [ref=f3e348]
+      - generic [ref=f3e349]:
+        - generic [ref=f3e350]:
+          - heading "Literária" [level=3] [ref=f3e354]
+          - paragraph [ref=f3e355]: Formação de leitores com gosto pela leitura e pelo diálogo com textos.
+        - generic [ref=f3e356]:
+          - heading "Cognitiva" [level=3] [ref=f3e366]
+          - paragraph [ref=f3e367]: Interpretação, argumentação e pensamento crítico sobre questões reais.
+        - generic [ref=f3e368]:
+          - heading "Socioemocional" [level=3] [ref=f3e372]
+          - paragraph [ref=f3e373]: Empatia, autoconhecimento e convivência respeitosa.
+        - generic [ref=f3e374]:
+          - heading "Formação humana" [level=3] [ref=f3e381]
+          - paragraph [ref=f3e382]: Projeto de vida, família, propósito e responsabilidade.
+    - generic [ref=f3e384]:
+      - generic [ref=f3e385]:
+        - heading "Alinhamento à BNCC" [level=2] [ref=f3e386]
+        - paragraph [ref=f3e387]: O projeto dialoga com competências essenciais da BNCC e pode apoiar ações de leitura, convivência, cidadania e desenvolvimento integral.
+      - generic [ref=f3e388]:
+        - generic [ref=f3e389]: Linguagens
+        - generic [ref=f3e390]: Projeto de Vida
+        - generic [ref=f3e391]: Cultura Digital
+        - generic [ref=f3e392]: Comunicação
+        - generic [ref=f3e393]: Argumentação
+        - generic [ref=f3e394]: Responsabilidade
+        - generic [ref=f3e395]: Autoconhecimento
+        - generic [ref=f3e396]: Empatia
+        - generic [ref=f3e397]: Cooperação
+        - generic [ref=f3e398]: Cidadania
+    - generic [ref=f3e400]:
+      - generic [ref=f3e401]:
+        - heading "Implementação" [level=2] [ref=f3e402]
+        - paragraph [ref=f3e403]: "Sugestão de cronograma para escolas e secretarias:"
+      - list [ref=f3e406]:
+        - listitem [ref=f3e407]:
+          - generic [ref=f3e408]: "1"
+          - paragraph [ref=f3e410]: Apresentação do projeto à equipe gestora
+        - listitem [ref=f3e411]:
+          - generic [ref=f3e412]: "2"
+          - paragraph [ref=f3e414]: Formação dos professores
+        - listitem [ref=f3e415]:
+          - generic [ref=f3e416]: "3"
+          - paragraph [ref=f3e418]: Distribuição dos livros
+        - listitem [ref=f3e419]:
+          - generic [ref=f3e420]: "4"
+          - paragraph [ref=f3e422]: Aplicação semanal dos capítulos
+        - listitem [ref=f3e423]:
+          - generic [ref=f3e424]: "5"
+          - paragraph [ref=f3e426]: Atividades interdisciplinares
+        - listitem [ref=f3e427]:
+          - generic [ref=f3e428]: "6"
+          - paragraph [ref=f3e430]: Participação das famílias
+        - listitem [ref=f3e431]:
+          - generic [ref=f3e432]: "7"
+          - paragraph [ref=f3e434]: Culminância do projeto
+        - listitem [ref=f3e435]:
+          - generic [ref=f3e436]: "8"
+          - paragraph [ref=f3e438]: Avaliação institucional
+    - generic [ref=f3e440]:
+      - heading "Resultados esperados" [level=2] [ref=f3e442]
+      - generic [ref=f3e443]:
+        - generic [ref=f3e444]:
+          - heading "Aumento do interesse pela leitura" [level=3] [ref=f3e448]
+          - paragraph [ref=f3e449]: Estudantes mais engajados com livros e narrativas significativas.
+        - generic [ref=f3e450]:
+          - heading "Melhoria da interpretação textual" [level=3] [ref=f3e455]
+          - paragraph [ref=f3e456]: Leitura mais atenta, argumentativa e crítica.
+        - generic [ref=f3e457]:
+          - heading "Maior participação dos estudantes" [level=3] [ref=f3e464]
+          - paragraph [ref=f3e465]: Aulas com mais troca, escuta e protagonismo juvenil.
+        - generic [ref=f3e466]:
+          - heading "Desenvolvimento de competências socioemocionais" [level=3] [ref=f3e470]
+          - paragraph [ref=f3e471]: Autoconhecimento, empatia e regulação emocional.
+        - generic [ref=f3e472]:
+          - heading "Maior diálogo entre escola e família" [level=3] [ref=f3e476]
+          - paragraph [ref=f3e477]: Conexão mais estreita entre casa, escola e comunidade.
+        - generic [ref=f3e478]:
+          - heading "Uso mais consciente das tecnologias" [level=3] [ref=f3e485]
+          - paragraph [ref=f3e486]: Reflexão sobre hábitos digitais e escolhas saudáveis.
+        - generic [ref=f3e487]:
+          - heading "Fortalecimento da cultura de convivência" [level=3] [ref=f3e491]
+          - paragraph [ref=f3e492]: Ambiente escolar mais acolhedor e respeitoso.
+        - generic [ref=f3e493]:
+          - heading "Ampliação do protagonismo estudantil" [level=3] [ref=f3e498]
+          - paragraph [ref=f3e499]: Jovens mais preparados para refletir e agir sobre suas vidas.
+    - generic [ref=f3e502]:
+      - img "Foto de Fabrício Lopes" [ref=f3e506]
+      - generic [ref=f3e507]:
+        - heading "Sobre o Autor" [level=2] [ref=f3e509]
+        - heading "Fabrício Lopes" [level=3] [ref=f3e510]
+        - paragraph [ref=f3e511]: Fabrício Lopes é psicanalista, empresário, escritor e criador do Projeto OFFLINE. Autor de Vida de Craque e O Toque, dedica sua trajetória a ajudar pessoas a desenvolverem seu potencial, encontrarem propósito e restaurarem vínculos.
+        - paragraph [ref=f3e512]: Sua própria história de superação se tornou base para uma mensagem de esperança, restauração e transformação. Com sensibilidade e autoridade, Fabrício construiu uma proposta literária e pedagógica que fala diretamente com estudantes, famílias e educadores.
+        - generic [ref=f3e513]:
+          - link "Conhecer o autor" [ref=f3e514] [cursor=pointer]:
+            - /url: https://instagram.com/vidacraque
+          - link "Falar com Fabrício - 5535984377973" [ref=f3e515] [cursor=pointer]:
+            - /url: https://wa.me/5535984377973?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Projeto%20ALF%20Est%C3%A1%20Offline.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.
+            - text: Falar com Fabrício
+    - generic [ref=f3e520]:
+      - heading "Leve o Projeto ALF Está Offline para sua escola ou rede de ensino" [level=2] [ref=f3e521]
+      - paragraph [ref=f3e522]: Uma proposta pronta para implantação, com livro, guia pedagógico, material de apoio e metodologia estruturada para professores e estudantes.
+      - generic [ref=f3e523]:
+        - link "Solicitar proposta" [ref=f3e524] [cursor=pointer]:
+          - /url: "#contato"
+        - link "Agendar apresentação" [ref=f3e525] [cursor=pointer]:
+          - /url: "#contato"
+        - link "Falar no WhatsApp - 5535984377973" [ref=f3e526] [cursor=pointer]:
+          - /url: https://wa.me/5535984377973?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Projeto%20ALF%20Est%C3%A1%20Offline.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.
+          - text: Falar no WhatsApp
+    - generic [ref=f3e530]:
+      - generic [ref=f3e531]:
+        - heading "Entre em contato" [level=2] [ref=f3e532]
+        - paragraph [ref=f3e533]: Preencha os dados abaixo e nossa equipe retornará em breve.
+      - generic [ref=f3e534]:
+        - generic [ref=f3e535]:
+          - generic [ref=f3e536]:
+            - text: Nome
+            - textbox "Nome" [ref=f3e537]:
+              - /placeholder: Seu nome
+          - generic [ref=f3e538]:
+            - text: Instituição
+            - textbox "Instituição" [ref=f3e539]:
+              - /placeholder: Nome da instituição
+          - generic [ref=f3e540]:
+            - text: Cidade/Estado
+            - textbox "Cidade/Estado" [ref=f3e541]
+          - generic [ref=f3e542]:
+            - text: Telefone/WhatsApp
+            - textbox "Telefone/WhatsApp" [ref=f3e543]:
+              - /placeholder: (35) 9 0000-0000
+        - generic [ref=f3e544]:
+          - text: E-mail
+          - textbox "E-mail" [ref=f3e545]:
+            - /placeholder: seu@email.com
+        - generic [ref=f3e546]:
+          - text: Tipo de interesse
+          - combobox "Tipo de interesse" [ref=f3e547]:
+            - option "Selecione uma opção" [disabled] [selected]
+            - option "Escola"
+            - option "Secretaria de Educação"
+            - option "Projeto social"
+            - option "Família"
+            - option "Outro"
+        - generic [ref=f3e548]:
+          - text: Mensagem
+          - textbox "Mensagem" [ref=f3e549]:
+            - /placeholder: Como podemos ajudar?
+        - button "Enviar interesse" [ref=f3e550]
+        - paragraph [ref=f3e551]:
+          - text: Ao enviar, você será redirecionado para o WhatsApp
+          - strong [ref=f3e552]: "5535984377973"
+          - text: .
+  - contentinfo [ref=f3e553]:
+    - generic [ref=f3e554]:
+      - generic [ref=f3e555]:
+        - generic [ref=f3e556]:
+          - heading "ALF Está Offline" [level=3] [ref=f3e557]
+          - paragraph [ref=f3e558]: Projeto Educacional · Fabrício Lopes
+          - generic [ref=f3e559]:
+            - link "(35) 9 8437 7973" [ref=f3e560] [cursor=pointer]:
+              - /url: https://wa.me/5535984377973
+            - link "@vidacraque" [ref=f3e563] [cursor=pointer]:
+              - /url: https://instagram.com/vidacraque
+            - link "vidacraque.com.br" [ref=f3e567] [cursor=pointer]:
+              - /url: https://vidacraque.com.br
+        - generic [ref=f3e568]:
+          - heading "Links rápidos" [level=4] [ref=f3e569]
+          - list [ref=f3e570]:
+            - listitem [ref=f3e571]:
+              - link "Início" [ref=f3e572] [cursor=pointer]:
+                - /url: "#inicio"
+            - listitem [ref=f3e573]:
+              - link "O Livro" [ref=f3e574] [cursor=pointer]:
+                - /url: "#livro"
+            - listitem [ref=f3e575]:
+              - link "Projeto Educacional" [ref=f3e576] [cursor=pointer]:
+                - /url: "#projeto"
+            - listitem [ref=f3e577]:
+              - link "Metodologia" [ref=f3e578] [cursor=pointer]:
+                - /url: "#metodologia"
+            - listitem [ref=f3e579]:
+              - link "Autor" [ref=f3e580] [cursor=pointer]:
+                - /url: "#autor"
+            - listitem [ref=f3e581]:
+              - link "Contato" [ref=f3e582] [cursor=pointer]:
+                - /url: "#contato"
+        - generic [ref=f3e583]:
+          - heading "Contato" [level=4] [ref=f3e584]
+          - paragraph [ref=f3e585]: Quer levar o projeto para sua escola, secretaria ou instituição?
+          - link "Falar no WhatsApp" [ref=f3e586] [cursor=pointer]:
+            - /url: "#contato"
+      - generic [ref=f3e587]: © 2026 ALF Está Offline. Todos os direitos reservados.
+  - link "Falar no WhatsApp - 5535984377973" [ref=f3e588] [cursor=pointer]:
+    - /url: https://wa.me/5535984377973?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20Projeto%20ALF%20Est%C3%A1%20Offline.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es.

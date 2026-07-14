@@ -25,7 +25,7 @@ export function AuthorSection() {
           <div className="author-image-card author-image-card--concrete">
             <div className="author-image-frame">
               <img
-                src="/images/autor.jpg"
+                src={`${import.meta.env.BASE_URL}images/autor.jpg`}
                 alt={`Foto de ${AUTHOR.name}`}
                 className="h-full w-full object-cover object-top"
                 width={520}
