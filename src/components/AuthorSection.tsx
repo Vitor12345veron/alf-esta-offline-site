@@ -3,6 +3,7 @@ import { AUTHOR, SITE_CONFIG } from '../data/siteData';
 import { Section, SectionHeader } from './Section';
 import { Button } from './Button';
 import { WhatsAppButton } from './WhatsAppButton';
+import autorFoto from '../assets/images/autor.jpg';
 
 export function AuthorSection() {
   return (
@@ -19,7 +20,7 @@ export function AuthorSection() {
             <div className="absolute -inset-4 rounded-full bg-gradient-to-tr from-alf-red/20 to-transparent blur-xl" />
             <div className="relative aspect-square overflow-hidden rounded-2xl bg-alf-black shadow-2xl shadow-black/40 ring-1 ring-alf-white/10">
               <img
-                src="/images/autor.jpg"
+                src={autorFoto}
                 alt={`Foto de ${AUTHOR.name}`}
                 className="h-full w-full object-cover object-top"
                 width={520}

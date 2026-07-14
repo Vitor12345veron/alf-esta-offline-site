@@ -86,9 +86,17 @@ test.describe('ALF Está Offline - Home', () => {
 
     const heroImage = page.locator('#inicio img[alt*="Capa do livro"]').first();
     await expect(heroImage).toBeVisible();
+    await expect(async () => {
+      const naturalWidth = await heroImage.evaluate((el: HTMLImageElement) => el.naturalWidth);
+      expect(naturalWidth).toBeGreaterThan(0);
+    }).toPass();
 
     const bookImage = page.locator('#livro img[alt*="Capa do livro"]').first();
     await expect(bookImage).toBeVisible();
+    await expect(async () => {
+      const naturalWidth = await bookImage.evaluate((el: HTMLImageElement) => el.naturalWidth);
+      expect(naturalWidth).toBeGreaterThan(0);
+    }).toPass();
 
     if (isMobile) {
       await page.locator('button[aria-label="Abrir menu"]').click();
@@ -100,6 +108,10 @@ test.describe('ALF Está Offline - Home', () => {
 
     const authorImage = page.locator('#autor img[alt*="Fabrício Lopes"]').first();
     await expect(authorImage).toBeVisible();
+    await expect(async () => {
+      const naturalWidth = await authorImage.evaluate((el: HTMLImageElement) => el.naturalWidth);
+      expect(naturalWidth).toBeGreaterThan(0);
+    }).toPass();
 
     expect(failedImages).toHaveLength(0);
   });

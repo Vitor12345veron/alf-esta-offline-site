@@ -3,6 +3,7 @@ import { Quote } from 'lucide-react';
 import { BOOK } from '../data/siteData';
 import { Section, SectionHeader } from './Section';
 import { Button } from './Button';
+import capaLivro from '../assets/images/capa-livro.png';
 
 export function BookSection() {
   return (
@@ -18,7 +19,7 @@ export function BookSection() {
           <div className="relative rounded-xl bg-gradient-to-br from-alf-white/5 to-transparent p-3 ring-1 ring-alf-white/10">
             <div className="absolute -inset-4 rounded-full bg-alf-red/5 blur-3xl" />
             <img
-              src="/images/capa-livro.png"
+              src={capaLivro}
               alt="Capa do livro ALF Está Offline"
               className="relative h-auto w-full rounded-lg object-cover shadow-2xl shadow-black/50"
               width={600}
