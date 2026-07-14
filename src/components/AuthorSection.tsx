@@ -17,11 +17,12 @@ export function AuthorSection() {
         >
           {/*
             Variantes disponíveis para o card da imagem do autor:
+            - author-image-card--concrete (cinza + vinho — padrão, combina com capa)
             - author-image-card--wine     (vinho escuro sólido)
-            - author-image-card--gradient (gradiente vermelho queimado — padrão)
+            - author-image-card--gradient (gradiente vermelho queimado)
             - author-image-card--glow     (glow vermelho suave com centro escuro)
           */}
-          <div className="author-image-card author-image-card--gradient">
+          <div className="author-image-card author-image-card--concrete">
             <div className="author-image-frame">
               <img
                 src="/images/autor.jpg"
