@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, WifiOff } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { HERO } from '../data/siteData';
 import { Button } from './Button';
 import { WhatsAppButton } from './WhatsAppButton';
+import capaLivro from '../assets/images/capa-livro.png';
+import logoIcon from '../assets/images/wifi-offline.svg';
 
 export function Hero() {
   return (
@@ -29,7 +31,12 @@ export function Hero() {
             className="flex flex-col gap-6"
           >
             <div className="inline-flex items-center gap-2 text-alf-red">
-              <WifiOff className="h-5 w-5" aria-hidden="true" />
+              <img
+                src={logoIcon}
+                alt=""
+                className="h-5 w-5"
+                aria-hidden="true"
+              />
               <span className="text-sm font-semibold uppercase tracking-widest">
                 Projeto Educacional
               </span>
@@ -68,7 +75,7 @@ export function Hero() {
               <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-alf-red/25 via-alf-red/5 to-transparent blur-2xl" />
               <div className="absolute -inset-1 rounded-xl bg-gradient-to-br from-alf-red/20 to-transparent opacity-60" />
               <img
-                src="/images/capa-livro.png"
+                src={capaLivro}
                 alt="Capa do livro ALF Está Offline, de Fabrício Lopes"
                 className="relative h-auto w-full rounded-xl object-cover shadow-2xl shadow-black/60 ring-1 ring-alf-white/10"
                 width={600}

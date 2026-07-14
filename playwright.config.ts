@@ -9,7 +9,7 @@ export default defineConfig({
   timeout: 60000,
   reporter: [['html', { outputFolder: 'playwright-report' }], ['list']],
   use: {
-    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:4173',
+    baseURL: process.env.PLAYWRIGHT_BASE_URL || 'http://localhost:4173/alf-esta-offline-site',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },

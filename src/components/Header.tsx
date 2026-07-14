@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, WifiOff } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { NAV_LINKS } from '../data/siteData';
 import { WhatsAppButton } from './WhatsAppButton';
+import logoIcon from '../assets/images/wifi-offline.svg';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,7 +35,12 @@ export function Header() {
           className="flex items-center gap-2 text-alf-white"
           aria-label="ALF Está Offline - Início"
         >
-          <WifiOff className="h-6 w-6 text-alf-red" aria-hidden="true" />
+          <img
+            src={logoIcon}
+            alt=""
+            className="h-6 w-6"
+            aria-hidden="true"
+          />
           <span className="font-display text-xl font-bold uppercase tracking-wider">
             ALF Está Offline
           </span>
