@@ -68,7 +68,7 @@ export function Hero() {
               <div className="absolute -inset-6 rounded-3xl bg-gradient-to-br from-alf-red/25 via-alf-red/5 to-transparent blur-2xl" />
               <div className="absolute -inset-1 rounded-xl bg-gradient-to-br from-alf-red/20 to-transparent opacity-60" />
               <img
-                src="/images/capa-livro.png"
+                src={`${import.meta.env.BASE_URL}images/capa-livro.png`}
                 alt="Capa do livro ALF Está Offline, de Fabrício Lopes"
                 className="relative h-auto w-full rounded-xl object-cover shadow-2xl shadow-black/60 ring-1 ring-alf-white/10"
                 width={600}

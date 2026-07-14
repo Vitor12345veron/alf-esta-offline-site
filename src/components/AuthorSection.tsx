@@ -24,7 +24,7 @@ export function AuthorSection() {
           <div className="author-image-card author-image-card--gradient">
             <div className="author-image-frame">
               <img
-                src="/images/fabricio-autor.jpg"
+                src={`${import.meta.env.BASE_URL}images/fabricio-autor.jpg`}
                 alt={`Foto de ${AUTHOR.name}`}
                 width={520}
                 height={520}
