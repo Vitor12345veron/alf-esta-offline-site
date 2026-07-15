@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, WifiOff } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 import { HERO } from '../data/siteData';
 import { Button } from './Button';
 import { WhatsAppButton } from './WhatsAppButton';
@@ -28,8 +28,7 @@ export function Hero() {
             transition={{ duration: 0.8 }}
             className="flex flex-col gap-6"
           >
-            <div className="inline-flex items-center gap-2 text-alf-red">
-              <WifiOff className="h-5 w-5" aria-hidden="true" />
+            <div className="text-alf-red">
               <span className="text-sm font-semibold uppercase tracking-widest">
                 Projeto Educacional
               </span>

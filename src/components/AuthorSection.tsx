@@ -3,6 +3,7 @@ import { AUTHOR, SITE_CONFIG } from '../data/siteData';
 import { Section, SectionHeader } from './Section';
 import { Button } from './Button';
 import { WhatsAppButton } from './WhatsAppButton';
+import fotoAutor from '../assets/images/fabricio-lopes-autor-v2.png';
 
 export function AuthorSection() {
   return (
@@ -15,16 +16,10 @@ export function AuthorSection() {
           transition={{ duration: 0.7 }}
           className="mx-auto w-full max-w-xs sm:max-w-sm lg:max-w-md"
         >
-          {/*
-            Variantes disponíveis para o card da imagem do autor:
-            - author-image-card--wine     (vinho escuro sólido)
-            - author-image-card--gradient (gradiente vermelho queimado — padrão)
-            - author-image-card--glow     (glow vermelho suave com centro escuro)
-          */}
-          <div className="author-image-card author-image-card--gradient">
+          <div className="author-image-card">
             <div className="author-image-frame">
               <img
-                src={`${import.meta.env.BASE_URL}images/fabricio-autor.jpg`}
+                src={fotoAutor}
                 alt={`Foto de ${AUTHOR.name}`}
                 width={520}
                 height={520}
