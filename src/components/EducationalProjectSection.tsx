@@ -2,6 +2,7 @@ import { BookOpen, ClipboardList, FileText, Layers, Puzzle, Scale } from 'lucide
 import { EDUCATIONAL_PROJECT } from '../data/siteData';
 import { Section, SectionHeader } from './Section';
 import { Card, CardTitle, CardText } from './Card';
+import { TeacherGuideDetail } from './TeacherGuideDetail';
 
 const icons = [BookOpen, ClipboardList, FileText, Puzzle, Layers, Scale];
 
@@ -24,6 +25,8 @@ export function EducationalProjectSection() {
           );
         })}
       </div>
+
+      <TeacherGuideDetail />
     </Section>
   );
 }

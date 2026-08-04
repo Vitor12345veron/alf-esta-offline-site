@@ -77,6 +77,93 @@ export const EDUCATIONAL_PROJECT = {
   ],
 } as const;
 
+export const TEACHER_GUIDE = {
+  eyebrow: 'Guia pedagógico do professor',
+  title: 'Instrução pedagógica completa',
+  lead: 'Mais de 250 páginas que acompanham o professor módulo a módulo: o olhar psicológico por trás de cada tema, a mediação em sala, o planejamento das aulas e as aplicações práticas com os estudantes.',
+  toggleOpen: 'Ver o guia pedagógico completo',
+  toggleClose: 'Recolher o guia pedagógico',
+  framework: {
+    title: 'Como cada módulo é conduzido',
+    lead: 'Todo módulo é desenvolvido nos cinco momentos da Mediação Literária Reflexiva, para que a leitura vire experiência formativa e não apenas conteúdo:',
+    steps: [
+      { number: '01', title: 'Sensibilização', description: 'Ativar repertório, emoção e curiosidade antes da leitura, criando um ambiente psicológico seguro para o tema.' },
+      { number: '02', title: 'Leitura compartilhada', description: 'Ler com pausas e escuta ativa, dando ao professor o papel de mediador da experiência estética e afetiva.' },
+      { number: '03', title: 'Mediação', description: 'Perguntas abertas e rodas de conversa que transformam a narrativa em espelho para a vida do estudante.' },
+      { number: '04', title: 'Atividade prática', description: 'Traduzir os valores da história em produção, projeto ou vivência concreta.' },
+      { number: '05', title: 'Diário de bordo', description: 'Registro pessoal que consolida a aprendizagem e desenvolve autoconhecimento e metacognição.' },
+    ],
+  },
+  modulesLead: 'Cada eixo temático abaixo é apresentado com o olhar psicológico do desenvolvimento do adolescente, seguido das orientações de mediação, planejamento e aplicação em sala.',
+  modules: [
+    {
+      number: '01',
+      title: 'Uso consciente da tecnologia',
+      focus: 'Hiperconexão, atenção e presença',
+      psychology:
+        'Na adolescência, o cérebro ainda amadurece as regiões responsáveis pela regulação de impulsos e pela recompensa. As telas oferecem estímulos rápidos e imprevisíveis que fortalecem circuitos de dopamina e dificultam a tolerância ao tédio, ao silêncio e à espera. O olhar psicológico aqui não é moralizar o uso, mas ajudar o estudante a perceber como a atenção é disputada e como o excesso afeta sono, ansiedade e autoestima comparativa.',
+      mediation:
+        'Conduza sem julgamento: acolha o vínculo real que o jovem tem com o digital antes de problematizá-lo. Use perguntas que geram consciência — "o que você sente quando fica sem o celular?", "quem decide o que aparece na sua tela?" — e valide as respostas para que a reflexão seja genuína, não imposta.',
+      planning:
+        'Reserve de 2 a 3 aulas. Comece pela sensibilização com uma dinâmica de observação do próprio uso, avance para a leitura mediada do capítulo correspondente e feche com um pacto coletivo de convivência digital construído pela turma.',
+      classroom:
+        'Proponha um "diário de tempo de tela" por três dias, rodas de conversa sobre gatilhos de uso e a criação de combinados da turma. Registre no diário de bordo o que cada um percebeu sobre a própria atenção.',
+    },
+    {
+      number: '02',
+      title: 'Vínculos familiares e presença',
+      focus: 'Pertencimento, escuta e afeto',
+      psychology:
+        'O adolescente vive a tensão entre buscar autonomia e continuar precisando de referência e segurança afetiva. Quando o vínculo familiar é frágil ou substituído por presenças apenas físicas — todos juntos, mas cada um na sua tela — surgem sentimentos de solidão, irritabilidade e desvalorização. Trabalhar presença é cuidar da base emocional que sustenta autoestima e sensação de pertencimento.',
+      mediation:
+        'Trate o tema com sensibilidade, reconhecendo que há diferentes configurações e histórias familiares. Evite idealizar "a família perfeita"; medie para que cada estudante identifique presenças significativas em sua vida, sejam elas quais forem, e nomeie o que é presença de verdade.',
+      planning:
+        'Planeje 2 aulas com atividade que atravesse a escola e a casa. Antecipe combinados com a coordenação para envolver as famílias de forma voluntária e respeitosa, sem expor situações pessoais.',
+      classroom:
+        'Sugira o desafio "uma refeição sem telas" ou uma conversa guiada com um adulto de referência, seguido de registro reflexivo. Em sala, promova roda de partilha voluntária sobre o que mudou na qualidade da presença.',
+    },
+    {
+      number: '03',
+      title: 'Identidade e autoconhecimento',
+      focus: 'Autoimagem, emoções e autenticidade',
+      psychology:
+        'A construção da identidade é a tarefa central dessa fase: o jovem se pergunta quem é e como é visto. Redes sociais amplificam a comparação e a busca por validação externa, o que pode fragilizar a autoimagem. O foco psicológico é fortalecer a identidade a partir de dentro — valores, emoções, história pessoal — reduzindo a dependência do olhar alheio.',
+      mediation:
+        'Crie um espaço de confiança onde não há resposta certa. Nomear emoções amplia o repertório emocional; ajude o estudante a diferenciar quem ele é do que ele mostra. Cuide para que a partilha seja sempre voluntária e livre de exposição.',
+      planning:
+        'Reserve 2 a 3 aulas articuladas ao componente de projeto de vida. Combine produção individual (escrita de si) com um fechamento coletivo que valorize a diversidade de histórias da turma.',
+      classroom:
+        'Trabalhe autorretrato escrito, linha da vida ou "carta para si mesmo". Explore a diferença entre o perfil online e a pessoa real, registrando descobertas no diário de bordo.',
+    },
+    {
+      number: '04',
+      title: 'Propósito e projeto de vida',
+      focus: 'Sentido, metas e esperança',
+      psychology:
+        'Ter um porquê é fator de proteção psicológica: projeto de vida e sentido de futuro reduzem comportamentos de risco e sustentam a motivação. Muitos adolescentes vivem no imediatismo das telas e têm dificuldade de projetar-se adiante. O olhar aqui é despertar esperança realista, conectando escolhas do presente a sonhos possíveis.',
+      mediation:
+        'Medie como quem faz perguntas, não como quem entrega respostas prontas. Acolha sonhos sem julgar seu "tamanho" e ajude a transformar desejos difusos em metas concretas e alcançáveis, reforçando a crença do estudante na própria capacidade.',
+      planning:
+        'Planeje 2 aulas com produto final visível — um mural, um mapa de sonhos ou um plano pessoal. Conecte o eixo às competências de projeto de vida da BNCC e a possíveis parcerias com a comunidade.',
+      classroom:
+        'Proponha o "mapa do futuro" com metas de curto, médio e longo prazo, ou a definição de um pequeno passo prático a dar na semana. Retome no diário de bordo para acompanhar o compromisso.',
+    },
+    {
+      number: '05',
+      title: 'Protagonismo, empatia e convivência',
+      focus: 'Alteridade, respeito e ação',
+      psychology:
+        'O grupo tem enorme peso emocional na adolescência: pertencer, ser aceito e reconhecido molda comportamentos. Ambientes digitais podem intensificar exclusão, comparação e agressividade. Desenvolver empatia e protagonismo ajuda o jovem a sair do papel de espectador e a se perceber como alguém capaz de cuidar do outro e transformar seu contexto.',
+      mediation:
+        'Medie conflitos como oportunidades de aprendizagem, não como faltas a punir. Estimule a troca de perspectiva — "como o outro se sentiu?" — e dê protagonismo real, deixando decisões e responsabilidades nas mãos da turma sempre que possível.',
+      planning:
+        'Reserve 2 a 3 aulas culminando em uma ação coletiva. Alinhe com a gestão escolar para que a iniciativa dos estudantes ganhe espaço concreto na escola ou na comunidade.',
+      classroom:
+        'Organize rodas de convivência, projetos de impacto social ou campanhas contra o bullying idealizadas pelos próprios estudantes. Registre no diário de bordo o papel que cada um assumiu e o que aprendeu com o outro.',
+    },
+  ],
+} as const;
+
 export const TARGET_AUDIENCE = {
   title: 'Público-alvo',
   groups: [
